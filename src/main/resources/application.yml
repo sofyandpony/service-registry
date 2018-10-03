@@ -1,0 +1,10 @@
+## YAML Template.
+---
+server:
+    port: 8761
+    application:
+        name: service-registry
+eureka: 
+    client: 
+        registerWithEureka: false
+        fetchRegistry: false
